@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>ChatGPT SQL Query Generator</h1>
+  <form id="queryForm">
+    <label for="question">Question:</label>
+    <input type="text" id="question" name="question" placeholder="Enter your question here...">
+    <button type="submit">Generate SQL</button>
+  </form>
+  <div id="loading" class="hidden">
+    <div class="loader"></div>
+  </div>
+  <pre id="sqlResult"></pre>
+  <h2>Conversation History</h2>
+  <div id="conversationHistory"></div>
+  <script src="main.js"></script>
+</body>
+</html>
